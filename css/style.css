@@ -59,7 +59,7 @@ main {
 }
 
 .nav-btn :nth-child(1):hover {
-  background-color: var(--Lightblue);
+  background-color: var(--);
   color: var(--Marineblue);
 }
 
@@ -99,6 +99,10 @@ p {
   background-color: var(--Marineblue);
   color: var(--Lightblue);
 }
+.sty{
+  background-color: var(--Marineblue);
+   color: white;
+}
 
 /* madia query */
 
@@ -122,7 +126,7 @@ p {
   }
   main {
     width: 30% !important;
-    height: 80vh;
+    height: 75vh;
     flex-direction: column;
     justify-content: flex-start;
     background-image: url("../assets/images/bg-sidebar-desktop.svg");
@@ -165,5 +169,10 @@ p {
   }
   .nav-content h5 {
     color: var(--White);
+  }
+  label{
+    color: var(--Marineblue);
+    font-size: small;
+
   }
 }
